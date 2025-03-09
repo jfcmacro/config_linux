@@ -1,6 +1,6 @@
-INSTALL_DIR=${HOME}/bin
+INSTALL_DIR=${HOME}
 
-all: ${INSTALL_DIR}
+all: ${INSTALL_DIR}/.tmux.conf
 
 ${INSTALL_DIR}/.tmux.conf: _tmux.conf
 	install $< $@
